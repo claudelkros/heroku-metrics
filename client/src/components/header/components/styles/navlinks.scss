@@ -1,0 +1,26 @@
+.navlinks {
+  display: flex;
+  align-items: center;
+  padding-right: 300px;
+  a {
+    text-decoration: none;
+    padding: 0 30px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  .selected {
+  }
+  .selected::after {
+    position: absolute;
+    background-color: rgb(238, 0, 0);
+    width: 70%;
+    height: 3px;
+    border-radius: 15%;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -100%;
+  }
+}

@@ -1,0 +1,19 @@
+.manage {
+  &__sidebar1 {
+    position: absolute;
+    top: 20vh;
+    left: 2vw;
+    z-index: 2;
+  }
+  &__sidebar2 {
+    position: absolute;
+    top: 20vh;
+    right: 2vw;
+    z-index: 2;
+  }
+
+  &__map {
+    position: relative;
+    top: -10%;
+  }
+}

@@ -1,0 +1,47 @@
+.stationContent {
+  padding: 20px;
+  .content {
+    &__bloc {
+      display: flex;
+      .bloc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        &__title {
+          font-size: 1rem;
+          font-weight: bolder;
+          padding: 10px 0;
+          opacity: 0.9;
+        }
+
+        &__value {
+          font-size: 1rem;
+        }
+      }
+    }
+    &__chart {
+      padding: 10px;
+      margin-top: 30px;
+      margin-right: 20px;
+      margin-left: 20px;
+      background-color: rgb(238, 238, 238);
+    }
+
+    &__position {
+      margin: 0 20px;
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__button {
+      padding-left: 10px;
+      margin-top: 20px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-right: auto;
+    }
+  }
+}
